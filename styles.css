@@ -1,0 +1,64 @@
+/* Example CSS for styling your CV */
+
+/* Define fonts and colors */
+body {
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Add styles for sections, headings, and content */
+.sectionTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.sectionContent {
+    margin-bottom: 20px;
+}
+
+/* Style Font Awesome icons */
+.fa {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+/* Add styles for project buttons */
+.project-button {
+    background-color: #AC632C;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .fa {
+        font-size: 16px;
+    }
+}
+/* Style for the link container */
+.link-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the links */
+.link-container a {
+    text-decoration: none;
+    padding: 10px 20px; /* Add padding to create button-like appearance */
+    margin: 0 10px; /* Add spacing between links */
+    background-color: #AC632C; /* Background color for links */
+    color: #fff; /* Text color for links */
+    border-radius: 5px; /* Rounded corners for links */
+    transition: background-color 0.3s ease; /* Add a smooth background color transition on hover */
+}
+
+/* Style for the links on hover */
+.link-container a:hover {
+    background-color: #181818; /* Background color on hover */
+}
+
